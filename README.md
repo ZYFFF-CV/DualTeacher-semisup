@@ -1,6 +1,8 @@
 # DualTeacher-semisup
 An official implementation of "SOOD: Towards Semi-Supervised Oriented Object Detection"
-<!-- Add a brief description of your project here -->
+<!-- A semi-supervised learning method, build on MMRotate -->
+## Installation
+
 ## 🚀 Quick Start
 <!-- Describe how to quickly set up and run your project -->
 Clone the repository
