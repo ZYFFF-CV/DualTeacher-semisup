@@ -1,6 +1,8 @@
 # DualTeacher-semisup
 An official implementation of "SOOD: Towards Semi-Supervised Oriented Object Detection"
 <!-- A semi-supervised learning method, build on MMRotate -->
+## TODO
+Trainin code and config will be updated after the paper is accepted
 ## Installation
 1. Install the key packages
 - `Anaconda3` with `python=3.8`

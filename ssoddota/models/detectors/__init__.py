@@ -1,0 +1,1 @@
+from .rotated_yolox import RotatedYOLOX
