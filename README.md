@@ -2,41 +2,31 @@
 An official implementation of "SOOD: Towards Semi-Supervised Oriented Object Detection"
 <!-- A semi-supervised learning method, build on MMRotate -->
 ## Installation
+1. Install the key packages
+- `Anaconda3` with `python=3.8`
+- `Pytorch=1.9.0`
+- `mmdetection=2.25.1`
+- `mmroatate=0.3.2`
+- `mmcv=1.6.0`
 
-## 🚀 Quick Start
-<!-- Describe how to quickly set up and run your project -->
-Clone the repository
-bash
-git clone https://github.com/your-username/project-name.git
-Install dependencies (if any)
-bash
-npm install # Or use yarn, pip, composer, etc. depending on your project
-Run the project
-bash
-npm start # Or use your start command
-🎯 Project Goals
-<!-- Describe the goals or vision of your project -->
-📚 Documentation
-<!-- Link to additional documentation if available -->
-User Manual
-Developer Guide
-👥 Contributors
-<!-- List the contributors to your project -->
-@your-username
-@other-contributor
-🔗 Links
-<!-- Provide relevant links such as the repository, issue tracker, social media, etc. -->
-Repository: https://github.com/your-username/project-name
-Issue Tracker: https://github.com/your-username/project-name/issues
-Social Media: [Twitter, Facebook, etc.]
-📜 License
-<!-- Specify the license for your project, such as MIT, Apache 2.0, etc. -->
-This project is licensed under the MIT License.
+2. Clone the repository
+```shell script
+git clone https://github.com/ZYFFF-CV/DualTeacher-semisup.git
 
-💡 Contributing Guidelines
-<!-- Provide guidelines on how to contribute to the project -->
-Please see the Contributing Guidelines for information on how to contribute to the project.
-🔗 Acknowledgements
-<!-- List any libraries, articles, tools, etc. that you referenced -->
-Acknowledged Library or Tool
-Referenced Article or Tutorial
+```
+3. Install requirement packages
+```
+python -m pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+4. Install this package
+```shell script
+cd DualTeacher-semisup
+python -m pip install -e .
+```
+
+5. Remove unnecessary packages
+```shell script
+rm -r ssod.egg-info
+```
+
