@@ -1,5 +1,5 @@
 # DualTeacher-semisup
-An official implementation of "SOOD: Towards Semi-Supervised Oriented Object Detection"
+An official implementation of "Dual teacher: Improving the reliability of pseudo labels for semi-supervised oriented object detection"
 <!-- A semi-supervised learning method, build on MMRotate -->
 ## TODO
 Trainin code and config will be updated after the paper is accepted
@@ -27,6 +27,15 @@ cd DualTeacher-semisup
 python -m pip install -e .
 ```
 
+```
+@article{fang2024dual,
+  title={Dual teacher: Improving the reliability of pseudo labels for semi-supervised oriented object detection},
+  author={Fang, Zhenyu and Ren, Jinchang and Zheng, Jiangbin and Chen, Rongjun and Zhao, Huimin},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2024},
+  publisher={IEEE}
+}
+```
 5. Remove unnecessary packages
 ```shell script
 rm -r ssod.egg-info
