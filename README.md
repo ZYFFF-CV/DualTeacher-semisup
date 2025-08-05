@@ -27,6 +27,11 @@ cd DualTeacher-semisup
 python -m pip install -e .
 ```
 
+5. Remove unnecessary packages
+```shell script
+rm -r ssod.egg-info
+```
+
 ```
 @article{fang2024dual,
   title={Dual teacher: Improving the reliability of pseudo labels for semi-supervised oriented object detection},
@@ -36,8 +41,3 @@ python -m pip install -e .
   publisher={IEEE}
 }
 ```
-5. Remove unnecessary packages
-```shell script
-rm -r ssod.egg-info
-```
-
